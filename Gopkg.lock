@@ -3,38 +3,47 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:4a0c6bb4805508a6287675fac876be2ac1182539ca8a32468d8128882e9d5009"
   name = "github.com/golang/snappy"
   packages = ["."]
+  pruneopts = "UT"
   revision = "2e65f85255dbc3072edf28d6b5b8efc472979f5a"
 
 [[projects]]
+  digest = "1:8f8811f9be822914c3a25c6a071e93beb4c805d7b026cbf298bc577bc1cc945b"
   name = "github.com/google/uuid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "064e2069ce9c359c118179501254f67d7d37ba24"
   version = "0.2"
 
 [[projects]]
+  digest = "1:9d7b1f07e44cada28e6160cb0a808ad2f71f32bd7114793fb0baa302db0e6229"
   name = "github.com/opentracing/opentracing-go"
   packages = [
     ".",
-    "log"
+    "log",
   ]
+  pruneopts = "UT"
   revision = "1949ddbfd147afd4d964a9f00b24eb291e0e7c38"
   version = "v1.0.2"
 
 [[projects]]
   branch = "master"
+  digest = "1:93e22926f699f67a297fad17178ab8d26662fb0b541c40a2ae3c21416186f1f8"
   name = "golang.org/x/net"
   packages = [
     "context",
     "http/httpguts",
     "http2",
     "http2/hpack",
-    "idna"
+    "idna",
   ]
+  pruneopts = "UT"
   revision = "9ef9f5bb98a1fdc41f8cf6c250a4404b4085e389"
 
 [[projects]]
+  digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
   name = "golang.org/x/text"
   packages = [
     "collate",
@@ -50,38 +59,47 @@
     "unicode/bidi",
     "unicode/cldr",
     "unicode/norm",
-    "unicode/rangetable"
+    "unicode/rangetable",
   ]
+  pruneopts = "UT"
   revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
   version = "v0.3.0"
 
 [[projects]]
+  digest = "1:7de4e571acfcb92fcc650d21ef48f4b7a36342c871de3b631d6a3b86f3fe009e"
   name = "gopkg.in/couchbase/gocb.v1"
   packages = ["."]
+  pruneopts = "UT"
   revision = "40eafe80a794c46d9aa8111c5ab6a3ee9810b5f5"
   version = "v1.3.6"
 
 [[projects]]
+  digest = "1:56fe6bb74afe4eade838c52a12111f49c4ea9f4b25e6194a7dde4194c2f74b50"
   name = "gopkg.in/couchbase/gocbcore.v7"
   packages = ["."]
+  pruneopts = "UT"
   revision = "b83e7ae1df3e664ec54638717803154f12223de2"
   version = "v7.1.1"
 
 [[projects]]
+  digest = "1:96e2cc0e8ea627e534b8eb0b5c1ef0f3902472ab14d912c856da98b754762345"
   name = "gopkg.in/couchbaselabs/gocbconnstr.v1"
   packages = ["."]
+  pruneopts = "UT"
   revision = "710456e087a6d497e87f41d0a9d98d6a75672186"
   version = "v1.0.1"
 
 [[projects]]
+  digest = "1:ba6eeb69e706c4fa641a267d608c6daf84cca8dcdf077c71f1c6719eee4e1512"
   name = "gopkg.in/couchbaselabs/jsonx.v1"
   packages = ["."]
+  pruneopts = "UT"
   revision = "5b7baa20429a46a5543ee259664cc86502738cad"
   version = "v1.0.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9862815ad00e7a597a13b85272e1361d4f86c5973a587cbc4b4c516707d6badf"
+  input-imports = ["gopkg.in/couchbase/gocb.v1"]
   solver-name = "gps-cdcl"
   solver-version = 1
